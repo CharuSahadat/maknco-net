@@ -1,0 +1,195 @@
+@charset "utf-8";
+/* CSS Document by Charu */
+
+body{margin:0; padding:0; font-family:'Open Sans', sans-serif; font-size:15px; color:#222; overflow-x:hidden} 
+
+/*Common CSS*/
+h1{margin:0; padding:0; font-family:Arial, Helvetica, sans-serif; font-size:25px; color:#222; font-weight:700}
+h2{margin:0; padding:0; font-family:Arial, Helvetica, sans-serif; font-size:25px; color:#222; font-weight:700; line-height:42px}
+h3{margin:0px 0 15px 0; padding:0px 0 15px 0; font-family:Arial, Helvetica, sans-serif; font-size:22px; font-weight:bold; color:#98ca4a; border-bottom:1px solid #0975e3}
+h4{margin:0; padding:0; font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#333}
+a, a:focus{outline:none}
+.line_h{margin:16px 0 10px 0; width:100%; height:2px; background-color:#ddd; clear:both}
+.line_h2{margin:10px 0 15px 0; width:100%; height:2px; background-color:#ddd; clear:both}
+.bg_color{background-color:#004a95}
+.btn_view, .btn_view:focus{padding:0px 10px; background-color:#004a95; font-family:'Open Sans', sans-serif; font-size:15px; color:#fff; text-align:center; font-weight:normal; text-decoration:none}
+.btn_view:hover{background-color:#98ca4a; color:#222; text-decoration:none}
+.right_text{text-align:right !important}
+.bullet{margin-right:5px; font-size:35px; color:#98ca4a; float:left}
+.blank_div{margin:0; padding:0; height:25px; clear:both}
+.paddding_space{padding-top:25px}
+
+/*Header*/
+.header_with_nav_wpapper{width:100%; height:auto; position:fixed; z-index:100; background-color:#fff}
+.blue_line{width:100%; height:5px; background-color:#004a95; clear:both}
+.header{padding:16px 0px; overflow:hidden}
+.social_icons ul{margin:0; padding:0; float:right; overflow:hidden}
+.social_icons ul li{margin:20px 0 0 5px; padding:0; list-style-type:none; display:inline; float:left}
+.social_icons ul li a{overflow:hidden}
+.facebook{width:28px; height:28px; background:url(../images/facebook_icon.png) no-repeat; background-position:0px 0px; float:left}
+.facebook:hover{background-position:0px -28px}
+.linkedin{width:28px; height:28px; background:url(../images/linkedin_icon.png) no-repeat; background-position:0px 0px; float:left}
+.linkedin:hover{background-position:0px -28px}
+.twitter{width:28px; height:28px; background:url(../images/twitter_icon.png) no-repeat; background-position:0px 0px; float:left}
+.twitter:hover{background-position:0px -28px}
+.tooltip.top .tooltip-arrow{border-top-color:#525252}
+.tooltip-inner{color:#fff; font-weight:bold; background:#525252}
+
+/*Main Nav*/
+.main_nav_wrapper{margin:3px 0 0 0; width:100%; height:47px; background:url(../images/nav_bg.jpg) repeat-x}
+.main_nav{margin:0; padding:0px 7px; width:100%}
+.main_nav ul{margin:0; padding:0; width:100%; background-color:transparent; float:left; clear:both}
+.main_nav ul li{position:relative; list-style:none; float:left}
+.main_nav ul li a{margin:0; padding:0px 26px 0px 26px; font-size:15px; color:#fff; text-decoration:none; line-height:47px; float:left; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box}
+.main_nav ul li a.active{color:#222; background-color:#98ca4a}
+.main_nav ul li:last-child a{padding:0px 17px 0px 17px}
+.main_nav ul li a:hover{color:#222; background-color:#98ca4a} 
+#pull{display:none}
+/*Sub Nav*/
+.main_nav ul li ul{margin-left:-1px; padding:0; width:auto; display:none; position:absolute; left:0; top:100%; z-index:100}
+.main_nav ul li:hover > ul{display:block}
+.main_nav ul li ul li{/*margin-top:1px;*/ float:none; border-top:1px solid #0050a3}
+.main_nav ul li ul li a{width:268px; padding:6px 10px; font-size:15px; line-height:normal; background-color:#014183; float:none; display:block}
+.main_nav ul li ul li:last-child a{padding:6px 10px}
+/*Sub Sub Nav*/
+.main_nav ul li ul li ul{margin-top:-1px; display:none}
+.main_nav ul li ul li ul li{}
+.main_nav ul li ul li ul li a{width:250px}
+.main_nav ul li ul li:hover ul{top:0; left:100%}
+
+.scroll_warpper{margin-top:142px; overflow:hidden}
+
+/*Breadcrumb Bar*/
+.breadcrumb_bar{margin-top:2px; padding:10px 0px 12px 0px; width:100%; height:auto; background-color:#98ca4a; clear:both}  
+.breadcrumb_bar p{margin:0; padding:0; font-size:18px; color:#111; line-height:16px}
+.breadcrumb_bar2{margin-top:0px; padding:10px 0px 12px 0px; width:100%; height:auto; background-color:#98ca4a; clear:both}  
+
+/*Body Content*/
+.body_content{margin:30px 0 0 0; padding:0}
+.body_content .body_left p{margin:0 0 15px 0; padding:0; text-align:justify; line-height:22px}
+
+.panel_inner{margin:20px 0 0 0; padding:0}
+.panel_inner img{vertical-align:top}
+.panel_inner .title{margin-right:47px; top:45px; width:100%; position:absolute; font-family:Arial, Helvetica, sans-serif; font-size:22px; font-weight:700; color:#fff; line-height:34px}
+.panel_inner .title .text{margin:0; padding-left:8px; width:80%}
+.panel_inner .title span{float:left}
+.panel_inner .title a{top:230px; left:245px; position:absolute}
+
+.enterprise_img, .financial_img{float:left}
+
+/*Footer*/
+.footer{margin:45px 0 0 0; padding:35px 0px; clear:both; background-color:#004a95}
+
+.services{margin:0; padding:0}
+.services ul{margin:0; padding:0; overflow:hidden}
+.services ul li{margin:0; padding:0 0 0 15px; list-style-type:none; display:block; background:url(../images/bullet_round.png) no-repeat left center; clear:both}
+.services ul li a{color:#fff; line-height:22px}
+.services ul li a:hover{color:#98ca4a; text-decoration:none}
+.services ul li a:focus{text-decoration:none}
+
+.contact{margin:0; padding:0}
+.contact ul{margin:0; padding:0; overflow:hidden}
+.contact ul li{margin:0; padding:0; color:#fff; line-height:22px; list-style-type:none; display:block; clear:both}
+
+.map{margin:20px 0 0 0; padding:0; width:100%; height:324px; border:2px solid #fff}
+
+.footer_bottom{margin:0; padding:25px 0px; font-size:14px; color:#808080}
+.footer_bottom a, .footer_bottom a:focus{color:#f67a1f; text-decoration:none}
+.footer_bottom a:hover{color:#808080; text-decoration:none}
+
+
+
+/*Media Query*/
+@media screen and (max-width: 1680px){
+#wowslider-container1 .ws-title{width:50%!important; left:25% !important; bottom:230px!important}
+}
+@media screen and (max-width: 1024px){
+.scroll_warpper{margin-top:139px}
+.main_nav_wrapper{margin-top:0; height:auto}
+.main_nav ul li a{padding:0px 7px}
+.main_nav ul li ul li a:hover{background-color:#98ca4a; color:#fff}
+.main_nav ul li a:hover{background-color:transparent; color:#98ca4a}
+.main_nav ul li:last-child a{padding:0px 0px 0px 5px!important}
+.main_nav ul li ul li:last-child a{padding:8px 10px!important}
+#wowslider-container1 .ws-title{width:60%!important; left:20% !important; bottom:150px!important}
+#wowslider-container1 .ws-title span{font-size:2em !important}
+/*.body_content .body_right img{width:100%; max-width:100%; height:auto}*/
+.body_content .body_right img{display:none}
+.panel_inner img{width:100%; max-width:100%; height:auto}
+.panel_inner .title{font-size:18px}
+.panel_inner .title .text{width:auto}
+.panel_inner .title a{top:170px; left:15px}
+.float_left{float:left}
+.clear_div{padding-top:20px; clear:both}
+.consultancy_img img, .project_img img, .enterprise_img img, .financial_img img, .internal_img img{width:100%; max-width:100%; height:auto}
+}
+@media screen and (max-width:800px){
+	.container	{width:auto}
+	.header_with_nav_wpapper{width:100%; height:auto; position:relative; z-index:100; background-color:#fff}
+	
+	.main_nav_wrapper{background:none}
+	.main_nav{width:auto; padding:0}
+	.main_nav a{outline:none; text-decoration:none}
+	.main_nav ul{margin:0; display:none}
+	.main_nav ul li ul{margin:0; width:100%; display:none; position:relative; border:none}
+	.main_nav ul li ul li ul{margin:0; display:none; position:relative; border:none;}
+	.main_nav ul li{width:100%; display:block; clear:both}
+	.main_nav ul li ul li{width:100%; display:block; clear:both; border:none}
+	.main_nav ul li ul li:hover ul{left:0} 
+	.main_nav ul li ul li ul li{width:100%; display:block; clear:both; border:none}
+	.main_nav ul li a{width:100%; border-right:none; border-bottom:1px solid #fff; background-color:#98ca4a; line-height:40px}
+	.main_nav ul li ul li:last-child a{padding:8px 10px}
+	.main_nav ul li ul li a{padding:8px 10px; width:100%; border:none; float:left; clear:both; background-color:#ebebeb; color:#424242}
+	.main_nav ul li ul li a:hover{background-color:#fff !important; color:#424242 !important}
+	.main_nav ul li ul li ul li a{padding:8px 10px 8px 50px; width:100%; border:none; float:left; clear:both; background-color:#ebebeb; color:#424242}
+	.main_nav ul li ul li ul li a:hover{background-color:#fff}
+	#pull{padding:10px 20px; width:auto; display:block; clear:both; font-size:16px; color:#fff; background-color:#004a95; font-weight:bold; text-align:right}	
+	#pull img{padding:10px; background-color:#900; float:right; display:block; clear:both}
+	
+	.scroll_warpper{margin-top:0px !important}
+	#wowslider-container1 .ws-title{display:none !important}
+	.float_left{float:left}
+	.clear_div{padding-top:20px; clear:both}
+	.body_content{margin:10px 0px!important}
+	.panel_inner .title{font-size:16px !important}
+	.panel_inner .title a{top:400px !important; left:0!important}
+	.btn_view, .btn_view:focus{font-size:14px}
+	.panel_inner img{width:100%; max-width:100%; height:auto}
+}
+@media screen and (max-width:768px){
+.panel_inner .title a{top:110px !important; left:0!important}
+}
+@media screen and (max-width:736px){
+	.right_text{text-align:left !important}
+}
+@media screen and (max-width:667px){
+	.panel_inner .title a{top:400px !important; left:0 !important}
+}
+@media screen and (max-width:603px){
+	.right_text{text-align:left !important}
+	.footer_bottom{padding:15px 0px}
+	 h1{font-size:23px}
+	.breadcrumb_bar p{font-size:16px}
+	/*.hidden_img{display:none}*/
+	.panel_inner .title{font-size:18px !important; font-weight:bold !important}
+	.panel_inner .title a{top:350px !important; left:0px !important}
+	.panel_inner .title .text{padding-left:5px !important; padding-right:5px !important}
+}
+@media screen and (max-width:533px){
+	.mini_logo{width:100%; min-width:100%; height:auto}
+	/*.panel_inner{display:none}*/
+	.clear_div2{padding-top:20px; clear:both}
+	.right_text{display:none}
+	
+}
+@media screen and (max-width:414px){
+	.panel_inner .title a{top:200px !important; left:0 !important}
+}
+@media screen and (max-width:375px){
+	.panel_inner .title a{top:150px !important; left:0px !important}
+}
+@media screen and (max-width:240px){
+	.social_icons{display:none}
+	.panel_inner .title{font-size:14px!important; font-weight:normal!important}
+	.panel_inner .title a{top:90px !important}
+}
